@@ -1,0 +1,53 @@
+body{
+    background-color: #181D31;
+    }
+#titulo{
+background-image: url("./imagenes/codigo.jpg");
+background-size: cover;
+min-height: 500px;
+color: #eeeeee;
+font-family: 'Montserrat', sans-serif;
+margin: auto 0px;
+font-size: 28px;
+text-shadow: 5px 5px black;
+display: flex;
+justify-content: space-around;
+align-items: center;
+padding: 0px 100px;
+}
+h2{
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 36px;
+    color: #678983;
+    text-shadow: 2px 2px black;
+}
+#cont-padre1{
+    margin: 100px 0px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    gap: 20px;
+}
+#ventana{
+    width: 350px;
+    height: 400px;
+    border: 5px solid #678983;
+    background-color: #E6DDC4;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+#img-ventana{
+    width: 350px;
+    margin: 0px;
+}
+#link-ventana{
+    padding: 10px;
+    border-radius: 10px;
+    color: #eeeeee;
+    background-color: #181D31;
+    margin-bottom: 20px;
+}
